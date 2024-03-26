@@ -1,0 +1,30 @@
+{
+  "name": "mr95-number-guessing-game",
+  "version": "1.1.0",
+  "description": "This is a CLI based number guessing game",
+  "main": "guess.js",
+  "type": "module",
+  "bin": "guess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "nodejs",
+    "cli",
+    "inquirer",
+    "chalk",
+    "guess-the-number",
+    "interactive"
+  ],
+  "author": "Mariam Rauf",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  }
+}
